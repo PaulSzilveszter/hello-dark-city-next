@@ -1,0 +1,31 @@
+#logo {
+    height: min(35vh,35vw);
+    width: min(35vh,35vw);
+    opacity: 100%;
+    top: 17.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+
+#sign-wrapper {
+    padding-top: 0%;
+    height: 65%;
+    width: 100%;
+    /* background-color: red; */
+    position: relative;
+    top: 35%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#pole {
+    background-color: black;
+    width: 15px;
+    
+    height: 100%;
+    position: absolute;
+}

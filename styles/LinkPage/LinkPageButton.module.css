@@ -1,0 +1,76 @@
+.link-page-button {
+    
+
+    position: relative;
+    height: 7vh;
+    width: 30vh;
+
+    background-color: black;
+
+
+
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    text-decoration: none;
+}
+
+.link-page-button-text {
+    height: 100%;
+    width: 100%;
+    
+    position: absolute;
+    opacity: 80%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.link-page-button-text:hover {
+    opacity: 100%;
+}
+
+.left {
+    clip-path: polygon(100% 100%,
+            25% 100%,
+            0% 50%,
+            25% 0%,
+            100% 0%);
+}
+
+.left:hover {
+    animation: link-page-button-left 0.2s forwards;
+
+}
+
+@keyframes link-page-button-left {
+    100% {
+        transform: translate(-20px);
+    }
+}
+
+.right {
+    clip-path: polygon(0% 0%,
+            75% 0%,
+            100% 50%,
+            75% 100%,
+            0% 100%);
+}
+
+.right:hover {
+    animation: link-page-button-right 0.2s forwards;
+
+}
+
+@keyframes link-page-button-right {
+    100% {
+        transform: translate(20px);
+    }
+}
