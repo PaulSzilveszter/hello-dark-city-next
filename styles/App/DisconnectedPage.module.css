@@ -1,0 +1,36 @@
+#connect-wallet-form{
+    position: relative;
+    height: 30%;
+    width: 100%;
+    
+}
+#connect-wallet-button{
+    position: absolute;
+    top: 10%;
+    right: 7%;
+
+    height: min(5vh, 6vw);
+    min-height: 40px;
+    
+    width: min(24vh, 24vw);
+    min-width: 160px;
+    
+    border-style: solid;
+    border-radius: 1px;
+    border-width: 2px;
+    border-color: grey;
+
+    background-color: black;
+    
+    font-size: 110%;    
+    
+    
+
+
+}
+#connect-wallet-button:hover{
+    
+    background-color: var(--dark-city-green);
+    color:black;
+    
+}

@@ -24,7 +24,7 @@ export default function Background(props) {
         <>
             <div className="background" style={backgroundStyle} >
 
-
+           
 
                 {props.isGif && gif}
                 {props.isImage && image}

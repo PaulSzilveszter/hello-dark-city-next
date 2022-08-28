@@ -24,7 +24,8 @@
 
 #pole {
     background-color: black;
-    width: 15px;
+    width: 1.5vw;
+    min-width: 15px;
     
     height: 100%;
     position: absolute;
