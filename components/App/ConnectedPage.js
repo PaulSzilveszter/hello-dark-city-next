@@ -13,7 +13,7 @@ export default function ConnectedPage(props) {
     }
 
     return (<>
-        <Background isGif={true} Gif={Gif} isImage={true} Image ={Image} height={"100vh"} width={"100%"} position="relative">
+        <Background isGif={false} Gif={Gif} isImage={true} Image ={Image} height={"100vh"} width={"100%"} position="relative">
             
 
             <form id={styles["disconnect-wallet-form"]} onSubmit={DisconnectWallet}>

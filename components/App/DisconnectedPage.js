@@ -2,6 +2,7 @@ import Gif from "../../public/assets/ianua-background.gif"
 import Image from "../../public/assets/black-overlay.png"
 
 import Background from "../reusables/Background";
+import Menu from "../reusables/Menu";
 
 import styles from "../../styles/App/DisconnectedPage.module.css"
 
@@ -13,6 +14,8 @@ export default function DisconnectedPage(props) {
     }
 
     return (<>
+        <Menu/>
+
         <Background isGif={true} Gif={Gif} isImage={true} Image ={Image} height={"100vh"} width={"100%"} position="relative">
             
 

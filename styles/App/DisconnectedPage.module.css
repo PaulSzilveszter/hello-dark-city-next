@@ -10,10 +10,10 @@
     right: 7%;
 
     height: min(5vh, 6vw);
-    min-height: 40px;
+    min-height: 30px;
     
     width: min(24vh, 24vw);
-    min-width: 160px;
+    min-width: 120px;
     
     border-style: solid;
     border-radius: 1px;
