@@ -1,0 +1,27 @@
+#triangle1 {
+    height: 100vh;
+    width: 50vw;
+    background-color: transparent;
+    box-sizing: border-box;
+    border: solid red 3px;
+    clip-path: polygon(0 100%, 100% 0, 0 0);
+
+}
+
+#triangle1:hover {
+    background-color: red;
+}
+
+#triangle2 {
+    height: 100vh;
+    width: 50vw;
+    background-color: transparent;
+    box-sizing: border-box;
+    /* border: solid red 3px; */
+    clip-path: polygon(100% 0%, 0 100%, 100% 100%);
+
+}
+
+#triangle2:hover {
+    background-color: red;
+}

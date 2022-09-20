@@ -1,12 +1,13 @@
 #disconnect-wallet-form{
-    position: relative;
-    height: 30%;
+    position: absolute;
+    height: 10vh;
     width: 100%;
     
 }
 #disconnect-wallet-button{
+    z-index: 10;
     position: absolute;
-    top: 10%;
+    top: 50%;
     right: 7%;
 
     height: min(5vh, 6vw);
@@ -33,4 +34,11 @@
     background-color: var(--dark-city-green);
     color:black;
     
+}
+
+@media (max-width: 300px) {
+    #disconnect-wallet-button{
+        right: 50%;
+        transform: translateX(50%);
+    }
 }

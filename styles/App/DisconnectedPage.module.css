@@ -1,12 +1,12 @@
 #connect-wallet-form{
-    position: relative;
-    height: 30%;
+    position: absolute;
+    height: 10vh;
     width: 100%;
     
 }
 #connect-wallet-button{
     position: absolute;
-    top: 10%;
+    top: 30%;
     right: 7%;
 
     height: min(5vh, 6vw);
