@@ -11,7 +11,7 @@ import ShopButton from "../../../public/assets/shop-button-for-home-page.gif"
 export default function IanuaMenu(props){
     return (
         <>
-           <div style={{display:"flex", backgroundColor:"purple"}}>
+           <div id={styles["ianua-menu"]} >
 
 
            {/* <div style={{position:"relative", height:"min(100vh,100vw)", width:"min(25vh, 25vw)"}}> <Image src={BlogButton}  alt="" layout="fill"
@@ -27,13 +27,36 @@ export default function IanuaMenu(props){
     <Image src={ShopButton}  alt="" 
     objectFit='cover' objectPosition="center"/> */} 
 
-            <div style={{height:"100vh", width:"25vw", backgroundColor:"black", boxSizing:"border-box", border:"solid red 3px"}}></div>
+            <div id = {styles["rectangle"]}>
+
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+
+            </div>
+
+            <div id = {styles["rectangle"]}>
+
+                <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+
+            </div>
 
 
-            <div id={styles["triangle1"]}></div>
+            <div id={styles["triangle1"]}>
+            <span></span>
+                <span></span>
+                <span></span>
+                <span></span>
+
+
+            </div>
             {/* <div id={styles["triangle2"]}></div> */}
 
-            <div style={{height:"100vh", width:"25vw", backgroundColor:"black", boxSizing:"border-box", border:"solid red 3px"}}></div>
+           
 
 
            </div>
