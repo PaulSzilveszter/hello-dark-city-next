@@ -13,7 +13,7 @@ export default function ConnectedPage(props) {
         props.setConnection(false);
     }
 
-    return (<>
+    return (<div id={styles["connected-page"]}>
         {/* <Background isGif={false} Gif={Gif} isImage={true} Image ={Image} height={"100vh"} width={"100%"} position="relative">
             
 
@@ -34,5 +34,5 @@ export default function ConnectedPage(props) {
         <IanuaMenu/>
 
 
-    </>)
+    </div>)
 }

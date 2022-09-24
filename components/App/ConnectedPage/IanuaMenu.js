@@ -8,58 +8,40 @@ import PathOfSol from "../../../public/assets/path-of-sol-button-for-home-page.g
 import ShopButton from "../../../public/assets/shop-button-for-home-page.gif"
 
 
-export default function IanuaMenu(props){
+export default function IanuaMenu(props) {
     return (
         <>
-           <div id={styles["ianua-menu"]} >
 
 
-           {/* <div style={{position:"relative", height:"min(100vh,100vw)", width:"min(25vh, 25vw)"}}> <Image src={BlogButton}  alt="" layout="fill"
-    objectFit='cover' objectPosition="center"/></div>
+            <svg id={styles["menu-svg"]} width="100%" height="100vh" viewBox="0 0 1920 1080" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
 
-        <div style={{position:"relative", height:"min(100vh,100vw)", width:"min(25vh, 25vw)"}}><Image src={PathOfSol}  alt="" 
-    objectFit='cover' objectPosition="center"/></div>
+                <g id="menu">
 
+                {/* <a id={styles["middle-circle"]} xlinkHref="" target="_blank">
+                        <circle id="home-menu-enter" cx="960" cy="576" r="195" stroke="#00FFA3" strokeWidth="10" />
+                    </a> */}
 
-    {/* <Image src={EnterButton}  alt="" 
-    objectFit='cover' objectPosition="center"/>
-    
-    <Image src={ShopButton}  alt="" 
-    objectFit='cover' objectPosition="center"/> */} 
+                    <a id={styles["left-rectangle"]} xlinkHref="" target="_blank">
+                        <rect x="5" y="175" width="374" height="802" stroke="#00FFA3" strokeWidth="10" />
+                    </a>
 
-            <div id = {styles["rectangle"]}>
-
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-
-            </div>
-
-            <div id = {styles["rectangle"]}>
-
-                <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
-
-            </div>
+                    <a id={styles["right-rectangle"]} xlinkHref="" target="_blank">
+                        <rect x="1541" y="175" width="374" height="802" stroke="#00FFA3" strokeWidth="10" />
+                    </a>
 
 
-            <div id={styles["triangle1"]}>
-            <span></span>
-                <span></span>
-                <span></span>
-                <span></span>
+                    <a id={styles["left-triangle"]} xlinkHref="" target="_blank">
+                        <path id="home-menu-path-of-sol" d="M389 977V179.639L1520.72 977H389Z" stroke="#00FFA3" strokeWidth="10" />
+                    </a>
 
+                    <a id={styles["right-triangle"]} xlinkHref="" target="_blank">
+                        <path id="home-menu-ianua-ai" d="M1531.5 175V972.361L399.778 175H1531.5Z" stroke="#00FFA3" strokeWidth="10" />
+                    </a>
 
-            </div>
-            {/* <div id={styles["triangle2"]}></div> */}
+                    
+                </g>
+            </svg>
 
-           
-
-
-           </div>
         </>
     )
 }

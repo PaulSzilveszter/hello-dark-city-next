@@ -1,0 +1,9 @@
+<svg width="1920" height="1080" viewBox="0 0 1920 1080" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Menu">
+<rect id="home-menu-shop" x="5" y="175" width="374" height="802" stroke="#00FFA3" stroke-width="10"/>
+<rect id="home-menu-blog" x="1541" y="175" width="374" height="802" stroke="#00FFA3" stroke-width="10"/>
+<path id="home-menu-path-of-sol" d="M389 977V179.639L1520.72 977H389Z" stroke="#00FFA3" stroke-width="10"/>
+<path id="home-menu-ianua-ai" d="M1531.5 175V972.361L399.778 175H1531.5Z" stroke="#00FFA3" stroke-width="10"/>
+<circle id="home-menu-enter" cx="960" cy="576" r="195" stroke="#00FFA3" stroke-width="10"/>
+</g>
+</svg>

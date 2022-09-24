@@ -1,233 +1,65 @@
-#ianua-menu {
-    padding: 100px;
-    height: 100vh;
-    background-color: blue;
-    display: flex;
+#menu-svg {
+    z-index: -1;
 }
 
-#rectangle {
-    position: relative;
-    display: inline-block;
-    overflow: hidden;
-    border: grey 2px solid;
-    height: auto;
-    width: 25%;
-    background-color: transparent;
-    box-sizing:border-box;
-    /* border:solid cyan 3px; */
-
-    transition: 0.2s;
+#left-rectangle {
+    fill: transparent;
+    
 
 }
 
-#rectangle:hover {
-    border: none;
-    background-color: cyan;
-    box-shadow: 0 0 10px cyan, 0 0 40px cyan, 0 0 80px cyan;
-    transition-delay: 1s;
-}
-
-#rectangle span {
-    position: absolute;
-    display: block;
-}
-
-/* top border */
-
-#rectangle span:nth-child(1) {
-    top: 0;
-    left: -100%;
-    width: 100%;
-    height: 2px;
-    background: linear-gradient(90deg, transparent, cyan);
-}
-
-#rectangle:hover span:nth-child(1) {
-    left: 100%;
+#left-rectangle:hover rect {
+    fill: aqua;
     transition: 1s;
-    transition-delay: 0s;
+    filter: drop-shadow(0px 0px 300px var(--dark-city-green));
 }
 
-/* bottom border */
 
-#rectangle span:nth-child(3) {
-    bottom: 0;
-    right: -100%;
-    width: 100%;
-    height: 2px;
-    background: linear-gradient(270deg, transparent, cyan);
+#right-rectangle {
+    fill: transparent;
+
 }
 
-#rectangle:hover span:nth-child(3) {
-    right: 100%;
+#right-rectangle:hover rect {
+    fill: aqua;
     transition: 1s;
-    transition-delay: 0.5s;
+    filter: drop-shadow(0px 0px 300px var(--dark-city-green));
 }
 
-/* right border */
-
-#rectangle span:nth-child(2) {
-    top: -100%;
-    right: 0%;
-    width: 2px;
-    height: 100%;
-    background: linear-gradient(180deg, transparent, cyan);
+#left-triangle {
+    fill: transparent;
+    
 }
 
-#rectangle:hover span:nth-child(2) {
-    top: 100%;
+#left-triangle:hover path {
+    fill: aqua;
+    transform: translateX(-200px);
     transition: 1s;
-    transition-delay: 0.25s;
+
+    filter: drop-shadow(0px 0px 300px var(--dark-city-green));
 }
 
-/* left border */
 
-#rectangle span:nth-child(4) {
-    bottom: -100%;
-    left: 0%;
-    width: 2px;
-    height: 100%;
-    background: linear-gradient(180deg, transparent, cyan);
+
+#right-triangle {
+    fill: transparent;
 }
 
-#rectangle:hover span:nth-child(4) {
-    bottom: 100%;
+#right-triangle:hover path {
+    fill: aqua;
+    transform: translateX(200px);
     transition: 1s;
-    transition-delay: 0.75s;
+
+    filter: drop-shadow(0px 0px 300px var(--dark-city-green));
 }
 
-/*###############################*/
-/* TRINAGLE 1 */
-
-#triangle1 {
-    clip-path: polygon(0 100%, 100% 0, 0 0);
-
-    position: relative;
-    display: inline-block;
-    overflow: hidden;
-
-    height: auto;
-    width: 25vw;
-    background-color: black;
-    /* box-sizing:"border-box"; */
-    /* border:solid cyan 3px; */
-
-    transition: 0.2s;
-
+#middle-circle{
+    fill: transparent;
+    z-index: 10;
 }
-
-#triangle1:hover {
-    background-color: cyan;
-    box-shadow: 0 0 10px cyan, 0 0 40px cyan, 0 0 80px cyan;
-    transition-delay: 1s;
-}
-
-#triangle1 span {
-    position: absolute;
-    display: block;
-}
-
-/* top border */
-
-#triangle1 span:nth-child(1) {
-    top: 0;
-    left: -100%;
-    width: 100%;
-    height: 2px;
-    background: linear-gradient(90deg, transparent, cyan);
-}
-
-#triangle1:hover span:nth-child(1) {
-    left: 100%;
-    transition: 1s;
-    transition-delay: 0s;
-}
-
-/* bottom border */
-
-#triangle1 span:nth-child(3) {
-    bottom: 0;
-    right: -100%;
-    width: 100%;
-    height: 2px;
-    background: linear-gradient(270deg, transparent, cyan);
-}
-
-#triangle1:hover span:nth-child(3) {
-    right: 100%;
-    transition: 1s;
-    transition-delay: 0.5s;
-}
-
-/* right border */
-
-#triangle1 span:nth-child(2) {
-    top: -100%;
-    right: 0%;
-    width: 2px;
-    height: 100%;
-    background: linear-gradient(180deg, transparent, cyan);
-}
-
-#triangle1:hover span:nth-child(2) {
-    top: 100%;
-    transition: 1s;
-    transition-delay: 0.25s;
-}
-
-/* left border */
-
-#triangle1 span:nth-child(4) {
-    bottom: -100%;
-    left: 0%;
-    width: 2px;
-    height: 100%;
-    background: linear-gradient(180deg, transparent, cyan);
-}
-
-#triangle1:hover span:nth-child(4) {
-    bottom: 100%;
-    transition: 1s;
-    transition-delay: 0.75s;
+#middle-circle:hover{
+    fill:red
 }
 
 
 
-
-
-
-/*###############################*/
-
-
-
-
-
-
-
-/* #triangle1 {
-    height: 100vh;
-    width: 50vw;
-    background-color: transparent;
-    box-sizing: border-box;
-    border: solid red 3px;
-    clip-path: polygon(0 100%, 100% 0, 0 0);
-
-}
-
-#triangle1:hover {
-    background-color: red;
-}
-
-#triangle2 {
-    height: 100vh;
-    width: 50vw;
-    background-color: transparent;
-    box-sizing: border-box;
-   
-    clip-path: polygon(100% 0%, 0 100%, 100% 100%);
-
-}
-
-#triangle2:hover {
-    background-color: red;
-} */
