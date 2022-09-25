@@ -1,5 +1,9 @@
 #connected-page{
-    background-color: black;
+    /* background-color: black; */
+    background: url(../../public/assets/ianua-background.gif);
+    background-size: cover;
+background-repeat: no-repeat;
+background-position: center;
 }
 
 
