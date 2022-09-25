@@ -9,7 +9,7 @@
 }
 
 #left-rectangle:hover rect {
-    fill: aqua;
+    fill: var(--dark-city-green);
     transition: 1s;
     filter: drop-shadow(0px 0px 300px var(--dark-city-green));
 }
@@ -21,7 +21,7 @@
 }
 
 #right-rectangle:hover rect {
-    fill: aqua;
+    fill: var(--dark-city-green);
     transition: 1s;
     filter: drop-shadow(0px 0px 300px var(--dark-city-green));
 }
@@ -32,7 +32,7 @@
 }
 
 #left-triangle:hover path {
-    fill: aqua;
+    fill: var(--dark-city-green);
     transform: translateX(-200px);
     transition: 1s;
 
@@ -46,7 +46,7 @@
 }
 
 #right-triangle:hover path {
-    fill: aqua;
+    fill: var(--dark-city-green);
     transform: translateX(200px);
     transition: 1s;
 
