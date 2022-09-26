@@ -33,7 +33,7 @@
 
 #left-triangle:hover  {
     fill: var(--dark-city-green);
-    transform: translateX(-200px);
+    /* transform: translateX(-200px); */
     transition: 1s;
 
     filter: drop-shadow(0px 0px 300px var(--dark-city-green));
@@ -47,18 +47,28 @@
 
 #right-triangle:hover  {
     fill: var(--dark-city-green);
-    transform: translateX(200px);
+    /* transform: translateX(200px); */
     transition: 1s;
 
     filter: drop-shadow(0px 0px 300px var(--dark-city-green));
 }
 
 #middle-circle{
-    fill: transparent;
-    z-index: 10;
+    /* fill: transparent;
+    z-index: 10; */
+
+   height:min(40vh, 40vw);
+    width:min(40vh, 40vw);
+     position:absolute; 
+     background-color:transparent;
+      top:50%;
+      left:50% ;
+      transform:translate(-50%, -50%); 
+      border-radius:50%;
 }
 #middle-circle:hover{
-    fill:red
+    background-color: var(--dark-city-green);
+    /* box-shadow:0px 0px 300px var(--dark-city-green); */
 }
 
 
