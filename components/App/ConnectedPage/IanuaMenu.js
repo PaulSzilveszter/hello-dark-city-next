@@ -14,25 +14,28 @@ export default function IanuaMenu(props) {
 
 
             <svg id={styles["menu-svg"]} width="100%" height="100vh" viewBox="0 0 1920 1080" fill="none" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none">
-            
+
                 <g id="menu">
 
-                {/* <a id={styles["middle-circle"]} xlinkHref="" target="_blank">
+                    {/* <a id={styles["middle-circle"]} xlinkHref="" target="_blank">
                         <circle id="home-menu-enter" cx="960" cy="576" r="195" stroke="#00FFA3" strokeWidth="10" />
                     </a> */}
 
                     <a id={styles["left-rectangle"]} xlinkHref="" target="_blank">
                         <rect x="5" y="175" width="374" height="802" stroke="transparent" strokeWidth="10" />
-                        
+
                         <text fontSize="3rem" x="10%" y="50%" fill="white" dominantBaseline="middle" textAnchor="middle">SHOP</text>
 
-                        
+
                     </a>
+
+                    
+
 
                     <a id={styles["right-rectangle"]} xlinkHref="" target="_blank">
                         <rect x="1541" y="175" width="374" height="802" stroke="transparent" strokeWidth="10" />
-
-                        <text fontSize="3rem" x="90%" y="50%" fill="white" dominantBaseline="middle" textAnchor="middle">BLOG</text>
+                            
+                        <text textLength="100px" fontSize="3rem" x="90%" y="50%" fill="white" dominantBaseline="middle" textAnchor="middle">BLOG</text>
                     </a>
 
 
@@ -48,20 +51,20 @@ export default function IanuaMenu(props) {
                         <text fontSize="4rem" x="50%" y="25%" fill="white" dominantBaseline="middle" textAnchor="middle">IANUA AI</text>
                     </a>
 
-                    
+
                 </g>
             </svg>
 
 
-            <div id={styles["middle-circle"]}  ></div>
+            <a id={styles["middle-circle"]}  ></a>
 
 
-            <div id = {styles["text-overlap"]} style={{position:"absolute", top:"0%", left:"0%", height:"100%"}}>
+            {/* <div id={styles["text-overlap"]} style={{ position: "absolute", top: "0%", left: "0%", height: "100%" }}>
 
-                <div id={styles["text-shop"]} style={{position:"absolute", top:"50%", fontSize:"max(140%)"}}>SHOP</div>
+                <div id={styles["text-shop"]} style={{ position: "absolute", top: "50%", fontSize: "max(140%)" }}>SHOP</div>
 
 
-            </div>
+            </div> */}
 
 
         </>
