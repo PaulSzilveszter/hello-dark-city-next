@@ -15,13 +15,13 @@ export default function ConnectedPage(props) {
 
     return (<div id={styles["connected-page"]}>
 
-<form id={styles["disconnect-wallet-form"]} onSubmit={DisconnectWallet}>
+        <form id={styles["disconnect-wallet-form"]} onSubmit={DisconnectWallet}>
 
-<button id={styles["disconnect-wallet-button"]} type="submit" value="Submit">DISCONNECT WALLET</button>
+            <button id={styles["disconnect-wallet-button"]} type="submit" value="Submit">DISCONNECT WALLET</button>
 
-</form>
+        </form>
 
-<IanuaMenu/>
+        <IanuaMenu />
 
         {/* <Background isGif={true} Gif={Gif} isImage={true} Image ={Image} height={"100vh"} width={"100%"} position="absolute">
             
@@ -30,7 +30,7 @@ export default function ConnectedPage(props) {
         
         </Background> */}
 
-        
+
 
 
     </div>)
